@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".FrontPageActivity">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:layout_marginBottom="357dp"
+        android:text="COLOR CONQUEST"
+        android:textColor="#353232"
+        android:textSize="65sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/fonttitle3"
+        app:layout_constraintBottom_toTopOf="@+id/playButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/threedbutton"
+        android:text="Best of 1"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleTextView" />
+
+    <Button
+        android:id="@+id/bestofthreeButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="376dp"
+
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/threedbutton"
+        android:text="Best of 3"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleTextView" />
+
+    <ImageView
+        android:id="@+id/bluerednew"
+        android:layout_width="347dp"
+        android:layout_height="286dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/bluerednew"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <Button
+        android:id="@+id/bestoffiveutton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="436dp"
+
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/threedbutton"
+        android:text="Best of 5"
+
+        android:fontFamily="sans-serif-medium"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleTextView" />
+
+    <ToggleButton
+        android:id="@+id/rulesButton"
+        android:layout_width="74dp"
+        android:layout_height="53dp"
+
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="1000dp"
+        android:background="@drawable/threedbutton"
+        android:text="rules"
+        app:layout_constraintBottom_toTopOf="@+id/titleTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rulesButton"
+        app:layout_constraintVertical_bias="0.39999998" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

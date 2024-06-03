@@ -1,0 +1,219 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootView"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/powerupsymbol"
+        android:layout_width="50dp"
+        android:layout_height="47dp"
+
+        android:background="@drawable/button_3d_default"
+        android:fontFamily="@font/fontfornumber"
+        android:gravity="center"
+
+        android:text="⚡"
+
+        android:textColor="#DFDCDA"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:translationX="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084" />
+
+    <TextView
+        android:id="@+id/powerupsymbol"
+        android:layout_width="50dp"
+        android:layout_height="47dp"
+
+        android:background="@drawable/button_3d_default"
+        android:fontFamily="@font/fontfornumber"
+        android:gravity="center"
+
+        android:text="⚡"
+
+        android:textColor="#DFDCDA"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:translationX="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.789" />
+
+    <TextView
+        android:id="@+id/playeroneone"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+
+        android:background="@drawable/rectangle"
+        android:fontFamily="@font/fontfornumber"
+        android:gravity="center"
+
+        android:text="  Player 1"
+
+        android:textColor="#DFDCDA"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:translationX="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.791" />
+
+    <ToggleButton
+        android:id="@+id/powerup1Button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/threedbutton"
+        android:checked="false"
+        android:text="⚡"
+        android:rotation="180"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/playertwotwo"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+
+        android:background="@drawable/rectangleblue"
+        android:fontFamily="@font/fontfornumber"
+        android:gravity="center"
+        android:text="  Player 2"
+        android:rotation="180"
+
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:translationX="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/player1points"
+        android:layout_width="127dp"
+        android:layout_height="50dp"
+
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rectanglegrey"
+        android:fontFamily="@font/fontfornumber"
+        android:gravity="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759" />
+
+    <TextView
+        android:id="@+id/player2points"
+        android:layout_width="151dp"
+        android:layout_height="50dp"
+
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="320dp"
+        android:background="@drawable/rectanglegrey"
+        android:fontFamily="@font/fontfornumber"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="180"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <GridLayout
+        android:id="@+id/gameGrid"
+        android:layout_width="496dp"
+        android:layout_height="501dp"
+        android:layout_margin="16dp"
+
+        android:layout_marginBottom="-250dp"
+
+        android:columnCount="5"
+        android:padding="8dp"
+
+        android:rowCount="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.308" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/threedbutton"
+        android:text="Reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gameGrid" />
+
+    <ToggleButton
+        android:id="@+id/powerup2Button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/threedbutton"
+        android:checked="false"
+        android:text="⚡"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.769" />
+
+    <Button
+        android:id="@+id/rulesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/threedbutton"
+        android:text="rules"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.856" />
+</androidx.constraintlayout.widget.ConstraintLayout>

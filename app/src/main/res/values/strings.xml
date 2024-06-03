@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">deltaapp</string>
+    <string name="red_wins_text">Red Wins: %1$d</string>
+    <string name="blue_wins_text">Blue Wins: %1$d</string>
+
+</resources>
